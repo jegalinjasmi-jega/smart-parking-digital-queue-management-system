@@ -1,0 +1,19 @@
+# NetBeans
+nbproject/private/
+
+# Java generated files
+build/
+dist/
+*.class
+
+# IDE files
+.idea/
+.vscode/
+
+# Sensitive files
+.env
+*.pem
+*.key
+
+# Logs
+*.log
