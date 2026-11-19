@@ -1,0 +1,34 @@
+                                               **Cloud-Based Smart Parking and Digital Queue Management System**.
+
+
+->My project title is **Cloud-Based Smart Parking and Digital Queue Management System**.
+
+->The main aim of this project is to reduce the time people spend searching for parking spaces and waiting in queues.
+
+->In this system, users can check parking slot availability, reserve a parking slot, and generate a queue token when parking slots are full. They can also check their queue status.
+
+->The application includes an admin feature to manage parking slots, call the next vehicle, and update completed bookings.
+
+->I developed this project using HTML, CSS, Java, MySQL, and AWS cloud services.
+
+->AWS services such as EC2, 
+Application Load Balancer, 
+Amazon RDS, 
+S3, 
+Lambda, 
+EventBridge, 
+IAM, and 
+CloudWatch help host, manage, store, and monitor the application.
+
+->This project demonstrates how a web application can be deployed and managed using AWS cloud infrastructure.
+
+Thank you.
+
+
+
+ps -ef | grep '[S]martParkingServer'
+curl http://localhost:8081/api/parking
+->nohup java -cp "/home/ec2-user/Smartparkingsystem.jar:/home/ec2-user/lib/mysql-connector-j-26.7.0.jar" smartparking.SmartParkingServer > /home/ec2-user/smartparking.log 2>&1 &
+->sleep 3
+curl http://localhost:8081/api/parking
+tail -30 /home/ec2-user/smartparking.log
