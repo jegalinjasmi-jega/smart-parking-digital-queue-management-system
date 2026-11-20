@@ -1,0 +1,67 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Parking Availability - Smart Parking</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <h2>Smart Parking</h2>
+        <a href="index.html">Home</a>
+        <a href="parking.html">Parking</a>
+        <a href="reservee.html">reservee</a>
+        <a href="queue.html">Queue</a>
+    </nav>
+
+    <!-- Parking Availability -->
+    <section class="parking-page">
+
+        <h1>Parking Availability</h1>
+
+        <p>Check the current status of parking slots.</p>
+
+        <div class="admin-cards">
+
+            <div class="admin-card">
+                <h3>Total Slots</h3>
+                <p id="totalSlots">0</p>
+            </div>
+
+            <div class="admin-card">
+                <h3>Available Slots</h3>
+                <p id="availableSlots">0</p>
+            </div>
+
+            <div class="admin-card">
+                <h3>Occupied Slots</h3>
+                <p id="occupiedSlots">0</p>
+            </div>
+
+        </div>
+
+        <!-- Parking Slot Details -->
+        <h2>Parking Slots</h2>
+
+        <div id="parkingSlots" class="parking-grid">
+            Loading parking slots...
+        </div>
+
+        <p id="parkingError"></p>
+
+    </section>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
+```
+

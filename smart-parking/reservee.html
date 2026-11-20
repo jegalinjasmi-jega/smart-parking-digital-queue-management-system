@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserve Parking - Smart Parking</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav>
+        <h2>Smart Parking</h2>
+        <a href="index.html">Home</a>
+        <a href="parking.html">Parking</a>
+        <a href="reservee.html">reservee</a>
+        <a href="queue.html">Queue</a>
+    </nav>
+
+    <section class="parking-page">
+        <h1>Reserve Your Parking Slot</h1>
+        <p>Enter your details to reserve an available parking slot.</p>
+
+        <form id="reservationForm">
+
+            <label for="customerName">Customer Name</label>
+            <input
+                type="text"
+                id="customerName"
+                placeholder="Enter your name"
+                required
+            >
+
+            <br><br>
+
+            <label for="vehicleNumber">Vehicle Number</label>
+            <input
+                type="text"
+                id="vehicleNumber"
+                placeholder="Example: TN 74 AB 1234"
+                required
+            >
+
+            <br><br>
+
+            <label for="parkingSlot">Select Parking Slot</label>
+            <select id="parkingSlot" required>
+                <option value="">Choose a slot</option>
+                <option value="P01">P01 - Available</option>
+                <option value="P02">P02 - Available</option>
+                <option value="P04">P04 - Available</option>
+            </select>
+
+            <br><br>
+
+            <button type="submit">Reserve Slot</button>
+
+        </form>
+
+        <p id="reservationMessage"></p>
+    </section>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>

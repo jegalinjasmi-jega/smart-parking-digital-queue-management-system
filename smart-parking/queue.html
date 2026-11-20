@@ -1,0 +1,60 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parking Queue</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav>
+        <h2>Smart Parking</h2>
+        <a href="index.html">Home</a>
+        <a href="parking.html">Parking</a>
+        <a href="reservee.html">reservee</a>
+        <a href="queue.html">Queue</a>
+    </nav>
+
+    <section class="reservation">
+        <h1>Digital Queue Token</h1>
+        <p>If parking is full, join the queue here.</p>
+
+        <form id="queueForm">
+            <label for="queueName">Customer Name</label>
+            <input type="text" id="queueName"
+                   placeholder="Enter your name" required>
+
+            <label for="queueVehicle">Vehicle Number</label>
+            <input type="text" id="queueVehicle"
+                   placeholder="Enter vehicle number" required>
+
+            <button type="submit">Get Queue Token</button>
+        </form>
+
+        <div id="queueMessage"></div>
+        
+<hr>
+
+<h2>Check Queue Status</h2>
+<p>Enter your queue token number.</p>
+
+<form id="checkQueueForm">
+    <label for="checkToken">Queue Token Number</label>
+    <input
+        type="text"
+        id="checkToken"
+        placeholder="Enter your token"
+        required
+    >
+    <button type="submit">Check Status</button>
+</form>
+
+<div id="checkQueueMessage"></div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+```

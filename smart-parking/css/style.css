@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+}
+
+nav {
+    background: #5f94cc;
+    color: white;
+    padding: 20px 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    font-size: 24px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 15px 25px;
+
+    border: none;
+    border-radius: 6px;
+
+    background: #12355b;
+    color: white;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d5a91;
+}
+
+/* Parking Availability Page */
+
+.parking-page {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.parking-page h1 {
+    margin-bottom: 12px;
+    color: #12355b;
+}
+
+.parking-page > p {
+    margin-bottom: 35px;
+}
+
+.parking-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 25px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.slot {
+    padding: 30px 15px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.slot h2 {
+    margin-bottom: 12px;
+}
+
+.slot p {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.available {
+    border-top: 5px solid #229954;
+}
+
+.available p {
+    color: #229954;
+}
+
+.occupied {
+    border-top: 5px solid #d64545;
+}
+
+.occupied p {
+    color: #d64545;
+}
+
+button:disabled {
+    background: #999999;
+    cursor: not-allowed;
+}
+
+@media (max-width: 600px) {
+    .parking-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    nav {
+        padding: 20px;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+}
+/* Reservation Form */
+.reservation {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px #cccccc;
+}
+
+.reservation h1 {
+    text-align: center;
+    color: #123456;
+}
+
+.reservation label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.reservation input,
+.reservation select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    box-sizing: border-box;
+}
+
+.reservation button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background: #087f5b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reservation button:hover {
+    background: #056344;
+}
+
+#bookingMessage {
+    text-align: center;
+    font-weight: bold;
+    color: green;
+}
+
+/* Admin Dashboard */
+.admin-container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 25px;
+}
+
+.admin-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 25px 0;
+}
+
+.admin-card {
+    flex: 1;
+    min-width: 150px;
+    padding: 20px;
+    background: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #cccccc;
+}
+
+.admin-card p {
+    font-size: 28px;
+    font-weight: bold;
+    color: #087f5b;
+}
+
+.admin-container select {
+    padding: 10px;
+    margin: 10px;
+}
+
+.admin-container button {
+    padding: 10px 15px;
+    margin: 8px;
+    background: #087f5b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.admin-container button:hover {
+    background: #056344;
+}
+
+#adminMessage {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
