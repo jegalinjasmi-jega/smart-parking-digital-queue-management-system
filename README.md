@@ -101,3 +101,57 @@ https://github.com/jegalinjasmi-jega/smart-parking-digital-queue-management-syst
 B.E. Electrical and Electronics Engineering
 
 GitHub: https://github.com/jegalinjasmi-jega
+
+
+## Project Screenshots
+
+### 1. AWS Architecture
+![AWS Architecture](screenshots/01-AWS-Architecture-Diagram.jpeg)
+
+### 2. AWS Architecture Flowchart
+![Architecture Flowchart](screenshots/02-AWS-Architecture-Flowchart.png)
+
+### 3. WAF and CloudFront
+![WAF CloudFront](screenshots/03-WAF-CloudFront-Architecture.png)
+
+### 4. VPC
+![VPC](screenshots/04-VPC.png)
+
+### 5. Subnets
+![Subnets](screenshots/05-Subnets.png)
+
+### 6. EC2 Instances
+![EC2](screenshots/06-EC2-Instances.png)
+
+### 7. Application Load Balancer
+![ALB](screenshots/07-Application-Load-Balancer.png)
+
+### 8. Target Group Health
+![Target Group](screenshots/08-Target-Group-Health.png)
+
+### 9. RDS MySQL
+![RDS](screenshots/09-RDS-MySQL.png)
+
+### 10. Amazon S3
+![S3](screenshots/10-Amazon-S3.png)
+
+### 11. Website Home
+![Website Home](screenshots/11-Website-Home.png)
+
+### 12. Parking Availability
+![Parking Availability](screenshots/12-Parking-Availability.png)
+
+### 13. Reserve Parking
+![Reserve Parking](screenshots/13-Reserve-Parking.png)
+
+### 14. Digital Queue
+![Digital Queue](screenshots/14-Digital-Queue.png)
+
+### 15. Admin Dashboard
+![Admin Dashboard](screenshots/15-Admin-Dashboard.png)
+
+### 16. Java Backend
+![Java Backend](screenshots/16-Java-Backend.png)
+
+### 17. Smart Parking Database
+![Database](screenshots/17-Smart-Parking-Database.png)
